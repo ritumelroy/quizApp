@@ -22,7 +22,7 @@ function Selection() {
             id="ButtonDark"
             className="btn "
             onClick={() => {
-              navigate("/HTML");
+              navigate("/quizApp/HTML");
             }}
           >
             <svg
@@ -45,7 +45,7 @@ function Selection() {
             id="ButtonDark"
             className="btn "
             onClick={() => {
-              navigate("/CSS");
+              navigate("/quizApp/CSS");
             }}
           >
             <svg
@@ -68,7 +68,7 @@ function Selection() {
             id="ButtonDark"
             className="btn "
             onClick={() => {
-              navigate("/JavaScript");
+              navigate("/quizApp/JavaScript");
             }}
           >
             <svg
@@ -91,7 +91,7 @@ function Selection() {
             id="ButtonDark"
             className="btn "
             onClick={() => {
-              navigate("/Accessibility");
+              navigate("/quizApp/Accessibility");
             }}
           >
             <svg

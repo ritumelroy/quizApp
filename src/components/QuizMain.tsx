@@ -23,7 +23,9 @@ function QuizMain() {
       break;
     }
   }
+  // console.log("ID", id);
   const { title, icon, questions } = quiz[i][1]; // get title and icon from here
+
   //   const { question, options, answer } = questions[6];
 
   const test = false;

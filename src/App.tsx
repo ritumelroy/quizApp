@@ -11,8 +11,8 @@ function App() {
   return (
     <>
       <Routes>
-        <Route path="/" element={<Selection />} />
-        <Route path="/:id" element={<QuizMain />} />
+        <Route path="/quizApp" element={<Selection />} />
+        <Route path="/quizApp/:id" element={<QuizMain />} />
       </Routes>
     </>
   );

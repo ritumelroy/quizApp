@@ -48,7 +48,7 @@ const Result = ({ score, title }: resultProps) => {
         <button
           className="again subbtn"
           onClick={() => {
-            navigate("/");
+            navigate("/quizApp");
           }}
         >
           Play Again
